@@ -8,7 +8,7 @@ int main() {
 
   char operador;
   double primeiro, segundo;
-  printf("Entre um operador (Soma(+)/Subtracao(-)/Multiplicacao(*)/Divisao(/))");
+  printf("Entre um operador (Soma(+)/Subtracao(-)/Multiplicacao(*)/Divisao(/)/Subtracao(-))");
   scanf("%c", &operador);
 
   printf("Entre o primeiro operador");
@@ -25,6 +25,8 @@ int main() {
     	printf("%.1lf * %.1lf = %.1lf", primeiro, segundo, primeiro * segundo);
     case'/':
 	    printf("%.1lf  / %1lf = %1lf", primeiro, segundo, primeiro / segundo);
+   case'-':
+	  printf("%.1lf  / %1lf = %1lf", primeiro, segundo, primeiro - segundo);
     break;
   
   }
