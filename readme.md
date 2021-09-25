@@ -40,10 +40,7 @@ gcc -o teste app.c
 
 ## Integrantes
 
-<p align="center">Feito por
-
-
-<strong><a href="https://github.com/Beatriz-Navarro">Beatriz Navarro,</a></strong>
+<p align="center">Feito por<strong><a href="https://github.com/Beatriz-Navarro">Beatriz Navarro,</a><strong>
 <strong><a href="https://github.com/brunacristinass">Bruna Cristina,</a></strong>
 <strong><a href="https://github.com/Deividev365">Deivid Almeida,</a></strong>
 <strong><a href="https://github.com/Irina-Chang">Irina Chang. </a></strong>
