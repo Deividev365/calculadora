@@ -6,7 +6,8 @@
 ## Installation
 
 You can set up everthing just using the windows cli.
-Here's the folliwing commands to set up.
+Here's the folliwing commands to set up. 
+It's important to have the gcc installed: <a href="https://www.mingw-w64.org/">gcc</a>
 
 ```bash
 cd desktop/
