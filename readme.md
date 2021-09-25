@@ -1,13 +1,52 @@
-# como rodar o programa a seguir:
+<div align="center">
 
-## git clone (link do projeto)
-## acessar o diretório referente a pasta que foi clonada
-## abrir um terminal bash
-## entrar na pasta do projeto
+<img src="https://user-images.githubusercontent.com/61792159/134777246-1a1b265c-3ed9-457b-b5b5-a599ab1fa5f2.png" width="1050px">
+</div>
 
-## rodar o comando gcc app.c 
-## Neste caso é preciso
+## Installation
+
+You can set up everthing just using the windows cli.
+Here's the folliwing commands to set up.
+
+```bash
+cd desktop/
+
+```
+
+```bash
+git clone https://github.com/Deividev365/calculadora.git
 
 
-## Integrantes: Beatriz, Bruna, Deivid, Irina ##
+```
 
+```bash
+cd calculadora
+
+```
+
+
+
+```bash
+gcc -o teste app.c
+
+```
+
+
+```bash
+
+.\teste.exe
+
+```
+
+## Integrantes
+
+<p align="center">Feito por
+
+
+<strong><a href="https://github.com/Beatriz-Navarro">Beatriz Navarro,</a></strong>
+<strong><a href="https://github.com/brunacristinass">Bruna Cristina,</a></strong>
+<strong><a href="https://github.com/Deividev365">Deivid Almeida,</a></strong>
+<strong><a href="https://github.com/Irina-Chang">Irina Chang. </a></strong>
+
+
+</p>
