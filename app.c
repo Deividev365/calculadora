@@ -23,7 +23,10 @@ int main() {
       break;
     case '*':
     	printf("%.1lf * %.1lf = %.1lf", primeiro, segundo, primeiro * segundo);
-
+    case'/':
+	    printf("%.1lf  / %1lf = %1lf", primeiro, segundo, primeiro / segundo);
+    break;
+  
   }
 
   return 0;
