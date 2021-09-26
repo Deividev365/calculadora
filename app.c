@@ -7,7 +7,6 @@ int main() {
   double primeiro, segundo;
   int decisaoUsuario;
 
-
   menu:
   
   fflush(stdin);

@@ -35,37 +35,37 @@ gcc -o teste app.c
 
 ```
 
-## 📚 Guia de Uso
-Informações úteis para utilizar esse programa.
+## 📚 Use Guide
+
+Useful Informations to use this program/software
 
 
 ```bash
-1 - Esta calculadora simples realiza operações matemáticas com 2 (duas) variáveis.
-
+1 - This simple calculator is able to take some math operations, which will be storaged IN two variables
 
 ```
 
 ```bash
-2 - Utilize o menu para selecionar a operação desejada.
+2 - There is a menu, where you can define which operation bets fits your math calculation
 
 ```
 
 ```bash
-3 - Utilize os seguintes caracteres para escolher uma opção:
-" + " = para operações de adição;
-" - " = para operações de subtração;
-" * " = para operações de multiplicação;
-" / " = para operações de divisão.
+3 - Use the follow caracteres to choose one option:
+" + " = FOR sum OPERATION;
+" - " = FOR subtraction OPERATION;
+" * " = FOR multiplication OPERATION;
+" / " = FOR division OPERATION.
 
 ```
 
 ```bash
-4 - Ao final de cada operação, pode-se optar por:
-Realizar uma nova operação digitando a tecla " 1 ";
-Finalizar o programa, digitando a tecla " 0 ".
+4 - At the end of each operation, there is an option FOR finishing the program or continuing FOR the next operation:
+Take a new operation clicking on " 1 ";
+finish the program execution clicking on " 0 ".
 
 ```
-## 💡 IDE:
+## 💡 IDE's used for development:
 
 Beatriz Navarro => <a href="https://www.techtudo.com.br/tudo-sobre/bloodshed-dev-c.html">DevC++</a><br>
 Bruna Cristina => <a href="https://code.visualstudio.com/">Visual Studio Code</a><br>
