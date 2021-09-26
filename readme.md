@@ -7,7 +7,7 @@
 
 You can set up everthing just using the windows cli.
 It's important to have the gcc installed: <a href="https://www.mingw-w64.org/">gcc</a>
-## Here's the folliwing commands to set up. 
+## Here's the following commands to set up. 
 
 ```bash
 cd desktop/
