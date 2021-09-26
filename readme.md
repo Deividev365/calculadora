@@ -6,6 +6,10 @@
 ## Installation
 
 You can set up everthing just using the windows cli.
+<<<<<<< HEAD
+=======
+<h1>Here's the following commands to set up.</h1>
+>>>>>>> d8a79aed4d2bbc24a8c7fa07aad3073bdba850e9
 It's important to have the gcc installed: <a href="https://www.mingw-w64.org/">gcc</a>
 ## Here's the folliwing commands to set up. 
 
