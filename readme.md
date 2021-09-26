@@ -35,7 +35,7 @@ gcc -o teste app.c
 
 ```
 
-## Guia de Uso
+## 📚 Guia de Uso
 Informações úteis para utilizar esse programa.
 
 
@@ -65,21 +65,29 @@ Realizar uma nova operação digitando a tecla " 1 ";
 Finalizar o programa, digitando a tecla " 0 ".
 
 ```
-## IDE:
+## 💡 IDE:
 
 Beatriz Navarro => <a href="https://www.techtudo.com.br/tudo-sobre/bloodshed-dev-c.html">DevC++</a><br>
 Bruna Cristina => <a href="https://code.visualstudio.com/">Visual Studio Code</a><br>
 Deivid Almeida => <a href="https://code.visualstudio.com/">Visual Studio Code</a><br>
 Irina Chang => <a href="https://www.techtudo.com.br/tudo-sobre/bloodshed-dev-c.html">DevC++</a><br>
 
-## Members:
 
-<p align="center">Feito por <strong><a href="https://github.com/Beatriz-Navarro">Beatriz Navarro, </a><strong>
+# :closed_book: License
+
+Released in 2021.
+This project is under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+<br>
+<p align="center">coded by <strong><a href="https://github.com/Beatriz-Navarro">Beatriz Navarro, </a><strong>
 <strong><a href="https://github.com/brunacristinass">Bruna Cristina, </a></strong>
 <strong><a href="https://github.com/Deividev365">Deivid Almeida, </a></strong>
 <strong><a href="https://github.com/Irina-Chang">Irina Chang. </a></strong>
 
 
 </p>
+  
+
 
 
