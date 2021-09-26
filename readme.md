@@ -67,7 +67,7 @@ Finalizar o programa, digitando a tecla " 0 ".
 ```
 ## IDE:
 
-Beatriz Navarro => <a href="https://code.visualstudio.com/">Visual Studio Code</a><br>
+Beatriz Navarro => <a href="https://www.techtudo.com.br/tudo-sobre/bloodshed-dev-c.html">DevC++</a><br>
 Bruna Cristina => <a href="https://code.visualstudio.com/">Visual Studio Code</a><br>
 Deivid Almeida => <a href="https://code.visualstudio.com/">Visual Studio Code</a><br>
 Irina Chang => <a href="https://www.techtudo.com.br/tudo-sobre/bloodshed-dev-c.html">DevC++</a><br>
