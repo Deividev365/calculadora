@@ -1,33 +1,86 @@
 #include <stdio.h>
 
 
-
 int main() {
-
-
 
   char operador;
   double primeiro, segundo;
-  printf("Entre um operador (Soma(+)/Subtracao(-)/Multiplicacao(*)/Divisao(/)/Subtracao(-))");
+  int decisaoUsuario;
+
+
+  menu:
+  
+  fflush(stdin);
+
+  printf("Entre um operador (Soma(+)/Multiplicacao(*)/Divisao(/)/Subtracao(-))....:");
   scanf("%c", &operador);
 
-  printf("Entre o primeiro operador");
+
+  fflush(stdin);
+
+  printf("Entre o primeiro número...: ");
   scanf("%lf", &primeiro);
 
-  printf("Entre o segundo operador");
+  fflush(stdin);
+
+  printf("Entre o segundo operador...: ");
   scanf("%lf", &segundo);
 
   switch (operador) {
     case '+':
       printf("%.1lf + %.1lf = %.1lf", primeiro, segundo, primeiro + segundo);
+
+
+       printf("\n\nRealizar outro cálculo? digite (1) Para finalizar?(0): ");
+       scanf("%d", &decisaoUsuario);
+        if(decisaoUsuario == 1) {
+            goto menu;
+        } else if(decisaoUsuario == 0) {
+          printf("Saindo...");
+          return(0);
+        }
+
       break;
     case '*':
     	printf("%.1lf * %.1lf = %.1lf", primeiro, segundo, primeiro * segundo);
+
+       printf("\n\nRealizar outro cálculo? digite (1) Para finalizar?(0): ");
+       scanf("%d", &decisaoUsuario);
+        if(decisaoUsuario == 1) {
+            goto menu;
+        } else if(decisaoUsuario == 0) {
+          printf("Saindo...");
+          return(0);
+        }
+
     case'/':
 	    printf("%.1lf  / %1lf = %1lf", primeiro, segundo, primeiro / segundo);
+
+       printf("\n\nRealizar outro cálculo? digite (1) Para finalizar?(0): ");
+       scanf("%d", &decisaoUsuario);
+        if(decisaoUsuario == 1) {
+            goto menu;
+        } else if(decisaoUsuario == 0) {
+          printf("Saindo...");
+          return(0);
+        }
+
    case'-':
-	  printf("%.1lf  / %1lf = %1lf", primeiro, segundo, primeiro - segundo);
+	  printf("%.1lf  / %.1lf = %1lf", primeiro, segundo, primeiro - segundo);
+
+     printf("\n\nRealizar outro cálculo? digite (1) Para finalizar?(0): ");
+       scanf("%d", &decisaoUsuario);
+        if(decisaoUsuario == 1) {
+            goto menu;
+        } else if(decisaoUsuario == 0) {
+          printf("Saindo...");
+          return(0);
+        }
+
     break;
+
+    default:
+    printf("Erro! ");
   
   }
 

@@ -6,8 +6,8 @@
 ## Installation
 
 You can set up everthing just using the windows cli.
-Here's the folliwing commands to set up. 
 It's important to have the gcc installed: <a href="https://www.mingw-w64.org/">gcc</a>
+## Here's the folliwing commands to set up. 
 
 ```bash
 cd desktop/
@@ -17,7 +17,6 @@ cd desktop/
 ```bash
 git clone https://github.com/Deividev365/calculadora.git
 
-
 ```
 
 ```bash
@@ -25,13 +24,10 @@ cd calculadora
 
 ```
 
-
-
 ```bash
 gcc -o teste app.c
 
 ```
-
 
 ```bash
 
@@ -39,7 +35,7 @@ gcc -o teste app.c
 
 ```
 
-## Integrantes
+## Members
 
 <p align="center">Feito por <strong><a href="https://github.com/Beatriz-Navarro">Beatriz Navarro,</a><strong>
 <strong><a href="https://github.com/brunacristinass">Bruna Cristina,</a></strong>
