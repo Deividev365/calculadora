@@ -49,7 +49,16 @@ int main() {
 	  //...
 
    case'-':
-	  //...
+	  printf("%.1lf - %.1lf = %.1lf", primeiro, segundo, primeiro - segundo);
+
+       printf("\n\nRealizar outro cálculo? digite (1) Para finalizar?(0): ");
+       scanf("%d", &decisaoUsuario);
+        if(decisaoUsuario == 1) {
+            goto menu;
+        } else if(decisaoUsuario == 0) {
+          printf("Saindo...");
+          return(0);
+        }
 
     break;
 
