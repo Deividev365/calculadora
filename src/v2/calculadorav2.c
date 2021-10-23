@@ -25,6 +25,9 @@ int main() {
   printf("Entre o segundo operador...: ");
   scanf("%lf", &segundo);
 
+  fflush(stdin);
+
+
   switch (operador) {
     case '+':
        printf("%.1lf * %.1lf = %.1lf", primeiro, segundo, primeiro + segundo);
@@ -59,7 +62,7 @@ int main() {
             goto menu;
         } else if(decisaoUsuario == 0) {
           printf("Saindo...");
-          return(0);.
+          return(0);
 
    case'-':
 	  printf("%.1lf - %.1lf = %.1lf", primeiro, segundo, primeiro - segundo);
@@ -78,6 +81,7 @@ int main() {
     default:
     printf("Erro! ");
   
+  }
   }
 
   return 0;
