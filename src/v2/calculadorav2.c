@@ -11,18 +11,18 @@ int main() {
   
   fflush(stdin);
 
-  printf("Entre um operador (Soma(+)/Multiplicacao(*)/Divisao(/)/Subtracao(-))....:");
+  printf("Escolha uma operacao:\n\t|Soma(+)\n\t|Multiplicacao(*)\n\t|Divisao(/)\n\t|Subtracao(-)\n:");
   scanf("%c", &operador);
 
 
   fflush(stdin);
 
-  printf("Entre o primeiro número...: ");
+  printf("Entre o primeiro número: ");
   scanf("%lf", &primeiro);
 
   fflush(stdin);
 
-  printf("Entre o segundo operador...: ");
+  printf("Entre o segundo operador: ");
   scanf("%lf", &segundo);
 
   fflush(stdin);
@@ -31,7 +31,7 @@ int main() {
   switch (operador) {
     case '+':
        printf("%.1lf * %.1lf = %.1lf", primeiro, segundo, primeiro + segundo);
-       printf("\n\nRealizar outro cálculo? digite (1) Para finalizar?(0): ");
+        printf("\n\nRealizar outro calculo? \n\t\tDigite (1)\nFinalizar? \n\t\tDigite (0) ");
        scanf("%d", &decisaoUsuario);
         if(decisaoUsuario == 1) {
             goto menu;
@@ -43,7 +43,7 @@ int main() {
     case '*':
     	printf("%.1lf * %.1lf = %.1lf", primeiro, segundo, primeiro * segundo);
 
-       printf("\n\nRealizar outro cálculo? digite (1) Para finalizar?(0): ");
+       printf("\n\nRealizar outro calculo? \n\t\tDigite (1)\nFinalizar? \n\t\tDigite (0) ");
        scanf("%d", &decisaoUsuario);
         if(decisaoUsuario == 1) {
             goto menu;
@@ -56,7 +56,7 @@ int main() {
     case'/':
 	 printf("%.1lf / %.1lf = %.1lf", primeiro, segundo, primeiro / segundo);
 
-       printf("\n\nRealizar outro cálculo? digite (1) Para finalizar?(0): ");
+        printf("\n\nRealizar outro calculo? \n\t\tDigite (1)\nFinalizar? \n\t\tDigite (0) ");
        scanf("%d", &decisaoUsuario);
         if(decisaoUsuario == 1) {
             goto menu;
@@ -67,7 +67,7 @@ int main() {
    case'-':
 	  printf("%.1lf - %.1lf = %.1lf", primeiro, segundo, primeiro - segundo);
 
-       printf("\n\nRealizar outro cálculo? digite (1) Para finalizar?(0): ");
+        printf("\n\nRealizar outro calculo? \n\t\tDigite (1)\nFinalizar? \n\t\tDigite (0) ");
        scanf("%d", &decisaoUsuario);
         if(decisaoUsuario == 1) {
             goto menu;
