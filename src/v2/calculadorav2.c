@@ -1,36 +1,62 @@
 #include <stdio.h>
 
-int soma(int x, int y) {
-    return x + y;
-}
 
 int main() {
 
-    /*Cada um irá realizar uma funcionalidade, para concretizar a utilização da metodologia FDD - Feature Driven Develpment*/
+  char operador;
+  double primeiro, segundo;
+  int decisaoUsuario;
+
+  menu:
+  
+  fflush(stdin);
+
+  printf("Entre um operador (Soma(+)/Multiplicacao(*)/Divisao(/)/Subtracao(-))....:");
+  scanf("%c", &operador);
 
 
+  fflush(stdin);
 
-    /*
-    Irina irá desenvolver: nome
-    
-    
-    */
+  printf("Entre o primeiro número...: ");
+  scanf("%lf", &primeiro);
 
-   /*
-    Deivid irá desenvolver: nome
-    
-    
-    */
+  fflush(stdin);
 
-   /*
-    Bruna irá desenvolver: nome
-    
-    
-    */
+  printf("Entre o segundo operador...: ");
+  scanf("%lf", &segundo);
 
-   /*
-    Beatriz irá desenvolver: nome
-    
-    
-    */
+  switch (operador) {
+    case '+':
+
+
+     
+
+      break;
+    case '*':
+    	printf("%.1lf * %.1lf = %.1lf", primeiro, segundo, primeiro * segundo);
+
+       printf("\n\nRealizar outro cálculo? digite (1) Para finalizar?(0): ");
+       scanf("%d", &decisaoUsuario);
+        if(decisaoUsuario == 1) {
+            goto menu;
+        } else if(decisaoUsuario == 0) {
+          printf("Saindo...");
+          return(0);
+        }
+            break;
+
+    case'/':
+	  //...
+
+   case'-':
+	  //...
+
+    break;
+
+    default:
+    printf("Erro! ");
+  
+  }
+
+  return 0;
 }
