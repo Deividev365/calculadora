@@ -26,6 +26,14 @@ int main() {
     raiz = sqrt(numeroRaizQuadrada);
 
     printf("A raiz quadrada de %f é: %f", numeroRaizQuadrada, raiz);
+	  	printf("\n\nRealizar outro calculo? \n\t\tDigite (1)\nFinalizar? \n\t\tDigite (0) ");
+       scanf("%d", &decisaoUsuario);
+	if(decisaoUsuario == 1) {
+            goto menu;
+        } else if(decisaoUsuario == 0) {
+          printf("Saindo...");
+          return(0);
+        }
 
   }
 
